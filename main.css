@@ -1,0 +1,1090 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* Phần Header(Đầu Trang Web) */
+/* Phần Menu Father */
+header {
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+}
+
+.header-menu {
+  display: flex;
+  flex-direction: row;
+  padding: 15px;
+  background-color: #c70101;
+  width: 100%;
+}
+
+.header-son {
+  color: aliceblue;
+  margin: 5px 5px;
+  padding: 10px 10px;
+  font-family: system-ui;
+  font-weight: 600;
+}
+
+.header-son:last-child {
+  margin-left: 192px;
+}
+/* Phần Menu Cha */
+
+/* Phần Menu Con */
+/* Phần chung cho tất cả Menu Con */
+a {
+  color: aliceblue;
+  text-decoration: none;
+}
+ul {
+  display: flex;
+  list-style: none;
+  background-color: #ffffff;
+  color: black;
+  position: absolute;
+  padding: 5px 70px;
+  margin: -9px 0px;
+  left: 0;
+  background-color: #fff;
+  width: 100%;
+  z-index: -3;
+}
+li {
+  padding: 5px 15px;
+  font-family: system-ui;
+  font-weight: 400;
+}
+input {
+  width: 100%;
+  padding: 10px;
+  border: 0.5px solid #7ab6ff;
+}
+.hidden {
+  display: none !important;
+}
+.opacity {
+  opacity: 0;
+}
+
+.colors {
+  width: 100%;
+  height: 654px;
+  position: fixed;
+  z-index: 10;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+/* Phần chung cho tất cả Menu Con */
+
+/* Phần LATEST */
+.header-son:nth-child(2):before {
+  content: "";
+  position: absolute;
+  height: 23px;
+  bottom: -3px;
+  width: 72.5px;
+  left: 70px;
+}
+
+.header-son:nth-child(2):hover .latest-mum {
+  transition: transform 0.5s linear;
+}
+.latest-mum {
+  transition: transform 0.5s linear;
+}
+
+/* Phần LATEST */
+
+/* Phần MUTV */
+.header-son:nth-child(3):before {
+  content: "";
+  position: absolute;
+  height: 23px;
+  bottom: -3px;
+  width: 65.53px;
+  left: 152px;
+}
+.header-son:nth-child(3):hover .MUTV-mum {
+  transition: transform 0.5s linear;
+}
+.MUTV-mum {
+  margin: -40px 0px;
+  transition: transform 0.5s linear;
+}
+/* Phần MUTV */
+
+/* Phần Shop */
+.header-son:nth-child(4):before {
+  content: "";
+  position: absolute;
+  height: 23px;
+  bottom: -3px;
+  width: 61.92px;
+  left: 226px;
+}
+/* Phần Shop */
+
+/* Phần Fixtures */
+.header-son:nth-child(5):before {
+  content: "";
+  position: absolute;
+  height: 23px;
+  bottom: -3px;
+  width: 89.94px;
+  left: 299px;
+}
+.header-son:nth-child(5):hover .fixtures-mum {
+  transition: transform 0.5s linear;
+}
+.fixtures-mum {
+  margin: -40px 0px;
+  transition: transform 0.5s linear;
+}
+/* Phần Fixtures */
+
+/* Phần Tickets */
+.header-son:nth-child(6):before {
+  content: "";
+  position: absolute;
+  height: 23px;
+  bottom: -3px;
+  width: 79.11px;
+  left: 400px;
+}
+.header-son:nth-child(6):hover .tickets-mum {
+  transition: transform 0.5s linear;
+}
+.tickets-mum {
+  margin: -40px 0px;
+  transition: transform 0.5s linear;
+}
+/* Phần Tickets */
+
+/* Phần Man United */
+.header-son:nth-child(7):before {
+  content: "";
+  position: absolute;
+  height: 23px;
+  bottom: -3px;
+  width: 105.2px;
+  left: 487px;
+}
+.header-son:nth-child(7):hover .myUnited-mum {
+  transition: transform 0.5s linear;
+}
+.myUnited-mum {
+  transition: transform 0.5s linear;
+}
+/* Phần Man United */
+
+/* Phần Fans */
+.header-son:nth-child(8):before {
+  content: "";
+  position: absolute;
+  height: 23px;
+  bottom: -3px;
+  width: 58.81px;
+  left: 604px;
+}
+.header-son:nth-child(8):hover .fans-mum {
+  transition: transform 0.5s linear;
+}
+.fans-mum {
+  margin: -40px 0px;
+  transition: transform 0.5s linear;
+}
+/* Phần Fans */
+
+/* Phần Players */
+.header-son:nth-child(9):before {
+  content: "";
+  position: absolute;
+  height: 23px;
+  bottom: -3px;
+  width: 83.31px;
+  left: 672px;
+}
+.header-son:nth-child(9):hover .players-mum {
+  transition: transform 0.5s linear;
+}
+.players-mum {
+  transition: transform 0.5s linear;
+}
+/* Phần Players */
+
+/* Phần Stadium */
+.header-son:nth-child(10):before {
+  content: "";
+  position: absolute;
+  height: 23px;
+  bottom: -3px;
+  width: 89.3px;
+  left: 766px;
+}
+.header-son:nth-child(10):hover .stadium-mum {
+  transition: transform 0.5s linear;
+}
+.stadium-mum {
+  margin: -40px 0px;
+  transition: transform 0.5s linear;
+}
+/* Phần Stadium */
+
+/* Phần MORE */
+.header-son:nth-child(11):before {
+  content: "";
+  position: absolute;
+  height: 23px;
+  bottom: -3px;
+  width: 65.13px;
+  left: 866px;
+}
+.header-son:nth-child(2):hover .more-mum {
+  transition: transform 1s linear;
+}
+.more-mum {
+  margin: 32px 0px;
+}
+.more-sun-son {
+  padding: 5px 0px;
+  font-family: SourceSansProRegular, Helvetica, sans-serif;
+  font-size: 0.8rem;
+}
+.more-son {
+  display: flex;
+  flex-direction: column;
+}
+.more-sun {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0px;
+  width: 212px;
+}
+.more-sun > li {
+  padding: 5px 0;
+}
+/* Phần MORE */
+
+/* Phần Sign In */
+.header-son:nth-child(12):before {
+  content: "";
+  position: absolute;
+  height: 23px;
+  bottom: -3px;
+  width: 114.27px;
+  right: 300px;
+}
+
+.baseModal-signIn {
+  z-index: 1;
+  background-color: #ff4136;
+  width: 600px;
+  height: 650px;
+  position: absolute;
+  left: 50%;
+  top: 401%;
+  transform: translate(-50%, -50%);
+}
+
+.form-group {
+  margin: 5px;
+}
+
+.form-son {
+  margin-bottom: 7px;
+}
+
+.form-group-son {
+  display: flex;
+}
+
+.select-group {
+  width: 33.33%;
+  height: 45px;
+  font-size: 20px;
+  border: 0.5px solid #7ab6ff;
+}
+
+.button-click {
+  margin: 100px 150px;
+  border: 0.5px solid #7ab6ff;
+  border-radius: 30px;
+}
+/* Phần Sign In */
+
+/* Phần Search */
+.header-son:nth-child(13):before {
+  content: "";
+  position: absolute;
+  height: 35px;
+  bottom: -3px;
+  width: 283.19px;
+  right: 20px;
+}
+
+.search-son {
+  display: flex;
+  position: absolute;
+  padding: 5px 5px;
+  margin: 26px 0;
+  left: 0;
+  width: 100%;
+}
+
+.input-search {
+  border-radius: 30px;
+}
+
+.button-clicked {
+  width: 50%;
+  margin-left: 50px;
+  border-radius: 30px;
+  border: 0.5px solid #7ab6ff;
+}
+/* Phần Search */
+/* Phần Menu Con */
+/* Phần Header(Đầu Trang Web)  */
+
+/* Phần Middle(Giữa Trang Web) */
+/* Phần SlideShow */
+.body-menu {
+  max-width: 100rem;
+  position: relative;
+  padding-top: 83px;
+  margin: 0 250px;
+}
+.slider-main-img {
+  overflow: hidden;
+}
+.slider-main {
+  display: flex;
+  position: relative;
+  transition: transform 1s linear;
+  height: 100%;
+}
+.slider-dot {
+  position: absolute;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  margin: 0px 422px;
+  bottom: 20px;
+  z-index: 5;
+}
+.dot {
+  border-radius: 50%;
+  border: 5px solid;
+  color: #ccc;
+  margin: 0px 5px;
+}
+.active {
+  color: #c70101;
+}
+.slide {
+  flex: 1 0 100%;
+}
+/* Phần SLideShow */
+/* Phần Hiển thị các trận đấu */
+/* Phần dùng chung */
+.match-title {
+  text-align: center;
+  font-family: system-ui;
+  font-weight: 600;
+  margin-top: 5px;
+}
+.round-infomation {
+  font-family: system-ui;
+  text-align: center;
+  font-weight: 100;
+}
+.lazyload-wrapper {
+  width: 160px;
+  height: 60px;
+  position: absolute;
+  left: 45px;
+  bottom: 0;
+}
+.match-result {
+  display: flex;
+  width: 100px;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  font-family: system-ui;
+  font-weight: 600;
+}
+.match-fixtures {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 25px;
+}
+.match-venue {
+  display: contents;
+}
+#C1 {
+  background-color: #000040;
+  color: #dedee6;
+}
+.match-time {
+  display: flex;
+  width: 80px;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  font-family: system-ui;
+  font-weight: 500;
+  font-size: 25px;
+  background-color: #707070;
+  color: aliceblue;
+  border-radius: 10px;
+}
+.match-date,
+.match-location {
+  font-family: system-ui;
+}
+.match-stadium {
+  font-size: 50px;
+  font-family: system-ui;
+  text-align: center;
+  margin-top: 20px;
+}
+.switch-button {
+  position: absolute;
+  display: flex;
+  width: 250px;
+  height: 570px;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 5;
+}
+.btn-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  width: 35px;
+  height: 35px;
+  background-color: #f8f8f8;
+  border-radius: 50%;
+}
+.btn-left:hover {
+  border: 0.5px solid #c70101;
+  background-color: yellow;
+}
+.btn-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  width: 35px;
+  height: 35px;
+  background-color: #f8f8f8;
+  border-radius: 50%;
+}
+.btn-right:hover {
+  border: 0.5px solid #c70101;
+  background-color: yellow;
+}
+/* Phần dùng chung */
+.match-item-language {
+  display: flex;
+  position: relative;
+  height: 570px;
+  bottom: 574px;
+  width: 100%;
+}
+/* Trận đấu của Nam */
+.match-item-men {
+  position: absolute;
+  background-color: cornsilk;
+  height: 570px;
+  width: 250px;
+  left: 0;
+}
+.item-main-men {
+  display: flex;
+  position: relative;
+  transition: transform 1s linear;
+  height: 100%;
+  width: 250px;
+}
+.item-main-dad {
+  overflow: hidden;
+}
+.one {
+  left: 250px;
+}
+.two {
+  left: 500px;
+}
+.three {
+  left: 750px;
+}
+.four {
+  left: 1000px;
+}
+.five {
+  left: 1250px;
+}
+.six {
+  left: 1500px;
+}
+.seven {
+  left: 1750px;
+}
+.eight {
+  left: 2000px;
+}
+.nine {
+  left: 2250px;
+}
+.ten {
+  left: 2500px;
+}
+/* Trận đấu của Nam */
+
+/* Trận đấu của Nữ */
+.match-item-women {
+  position: absolute;
+  background-color: cornsilk;
+  height: 570px;
+  width: 250px;
+  right: 0;
+}
+.item-main-women {
+  display: flex;
+  position: relative;
+  transition: transform 1s linear;
+  height: 100%;
+  width: 250px;
+}
+.item-main-daddy {
+  position: absolute;
+  background-color: cornsilk;
+  height: 570px;
+  width: 250px;
+  right: 0;
+  z-index: -1;
+  overflow: hidden;
+}
+
+.switch-button-women {
+  position: absolute;
+  display: flex;
+  width: 250px;
+  height: 570px;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 5;
+  right: 0;
+}
+.btn-right-women {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  width: 35px;
+  height: 35px;
+  background-color: #f8f8f8;
+  border-radius: 50%;
+}
+.btn-right-women:hover {
+  border: 0.5px solid #c70101;
+  background-color: yellow;
+}
+.btn-left-women {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  width: 35px;
+  height: 35px;
+  background-color: #f8f8f8;
+  border-radius: 50%;
+}
+.btn-left-women:hover {
+  border: 0.5px solid #c70101;
+  background-color: yellow;
+}
+.mot {
+  left: 250px;
+}
+.hai {
+  left: 500px;
+}
+.ba {
+  left: 750px;
+}
+.bon {
+  left: 1000px;
+}
+.nam {
+  left: 1250px;
+}
+.sau {
+  left: 1500px;
+}
+.bay {
+  left: 1750px;
+}
+.tam {
+  left: 2000px;
+}
+.chin {
+  left: 2250px;
+}
+/* Trận đấu của Nữ */
+/* Phần Hiển thị các trận đấu */
+
+/* Phần hiển thị những hình ảnh đặc sắc của trận đấu */
+.last-match-content {
+  width: 100%;
+  position: relative;
+  bottom: 574px;
+  height: 611px;
+}
+.match-overview {
+  display: flex;
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  height: 611px;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding-top: 115px;
+}
+.result {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.time-location-match {
+  display: flex;
+  flex-direction: column;
+  font-family: system-ui;
+  color: whitesmoke;
+  align-items: center;
+  margin-top: -158px;
+}
+.full-time {
+  display: flex;
+  justify-content: center;
+  color: whitesmoke;
+  font-family: system-ui;
+  font-weight: 700;
+  padding: 10px 6px;
+  font-size: 1.625rem;
+  min-width: 94px;
+  background-color: #4b4c52;
+  outline: 0.5px solid;
+}
+.score-match {
+  color: whitesmoke;
+  font-size: 50px;
+  font-family: system-ui;
+  font-weight: 700;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+/* Phần dùng chung cho đội nhà */
+.team-homes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 10px;
+}
+.team-name {
+  font-size: 20px;
+  color: whitesmoke;
+  font-weight: 600;
+  font-family: system-ui;
+}
+/* Phần dùng chung cho đội nhà */
+/* Phần dùng chung cho đội khách */
+.team-aways {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 10px;
+}
+/* Phần dùng chung cho đội khách */
+
+/* Phần hiệu ứng cho ảnh */
+.collection-images {
+  overflow: hidden;
+}
+.match-images {
+  display: flex;
+  position: relative;
+  transition: transform 1.5s linear;
+  width: 100%;
+  height: 100%;
+}
+.images {
+  flex: 1 0 100%;
+}
+/* Phần hiệu ứng cho ảnh */
+
+/* Phần hiển thị những hình ảnh đặc sắc của trận đấu */
+
+/* Phần hiển thị thông tin hằng ngày liên quan đến Man United */
+/* Phần hiệu ứng zoom ảnh */
+#zoom-image {
+  overflow: hidden;
+  max-width: 661.5px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+#zoom-images {
+  overflow: hidden;
+  max-width: 656.5px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+#zoom-images img {
+  display: block;
+  max-width: 656.5px;
+  min-height: 350px;
+  object-fit: cover;
+  transition: all 0.3s linear;
+}
+#zoom-image img {
+  display: block;
+  max-width: 217.165px;
+  min-height: 100%;
+  object-fit: cover;
+  transition: all 0.3s linear;
+}
+
+#zoom-image:hover img,
+#zoom-images:hover img {
+  transform: scale(1.1);
+}
+
+.descriptions {
+  max-width: 100%;
+  min-height: 150px;
+}
+.descriptions .contents {
+  max-width: 100%;
+  min-height: 100%;
+}
+.description {
+  max-width: 217.165px;
+}
+.description .content {
+  max-width: 100%;
+}
+/* Phần hiệu ứng zoom ảnh */
+.body-slider-menu {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: #f8f8f8;
+  position: relative;
+  bottom: 574px;
+}
+h1 {
+  font-family: system-ui;
+  opacity: 0.7;
+}
+.slider-1,
+.slider-2,
+.slider-3 {
+  max-width: 100%;
+  margin: 10px;
+}
+.slider-1:hover,
+.slider-2:hover,
+.slider-3:hover {
+  box-shadow: 0 0 2px 2px #ccc;
+}
+.slider-1:hover h1,
+.slider-2:hover h1,
+.slider-3:hover h1 {
+  opacity: 1;
+}
+.slider {
+  display: flex;
+  height: 250px;
+  margin-top: 10px;
+}
+.slider-son {
+  display: flex;
+  border-radius: 5px;
+}
+.slider-son:hover {
+  box-shadow: 0 0 5px 5px #ccc;
+  cursor: pointer;
+}
+.hot {
+  height: 500px;
+}
+.between {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.slider-sons {
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+}
+.slider-sons:hover {
+  box-shadow: 0 0 5px 5px #ccc;
+  cursor: pointer;
+}
+.slider-sons:last-child:hover {
+  box-shadow: 0 0 5px 5px #ccc;
+}
+.content {
+  font-size: 20px;
+  font-weight: 600;
+  font-family: system-ui;
+  margin-left: 10px;
+}
+.content-sub {
+  font-family: system-ui;
+  margin-left: 10px;
+  margin-top: 20px;
+  opacity: 0.8;
+}
+/* Phần hiển thị thông tin hằng ngày liên quan đến Man United */
+.plusHeight {
+  height: 500px;
+}
+.slider {
+  position: relative;
+  overflow: hidden;
+}
+/* Phần hiển thị thông tin cầu thủ Nam*/
+/* Phần hiệu ứng cho ảnh đại diện của cầu thủ */
+/* Dành cho thủ môn */
+.goalkepper-possition:hover,
+.centralDefender-location:hover,
+.defenders-location:hover,
+.midfielders-location:hover,
+.attack-middefield-location:hover,
+.wing-striker:hover,
+.striker:hover {
+  box-shadow: 0 0 5px 5px #ccc;
+}
+
+.goalkepper-possition:hover .players-infor,
+.goalkepper-possition:hover .players-infors,
+.centralDefender-location:hover .players-infor-central,
+.centralDefender-location:hover .players-infor-centrals,
+.defenders-location:hover .players-infor-wingback,
+.midfielders-location:hover .players-infor-mid,
+.midfielders-location:hover .players-infor-mids,
+.attack-middefield-location:hover .players-infor-attack,
+.wing-striker:hover .players-infor-wingstriker,
+.wing-striker:hover .players-infor-wings,
+.striker:hover .players-infor-striker,
+.striker:hover .players-infor-strikers {
+  transition: transform 1s linear;
+  cursor: pointer;
+  transform: translateY(-100%);
+}
+.goalkepper-possition:hover .logo-club,
+.goalkepper-possition:hover .logo-clubs,
+.centralDefender-location:hover .logo-club-central,
+.centralDefender-location:hover .logo-club-centrals,
+.defenders-location:hover .logo-club-wingback,
+.midfielders-location:hover .logo-club-mid,
+.midfielders-location:hover .logo-club-mids,
+.attack-middefield-location:hover .logo-club-attack,
+.wing-striker:hover .logo-club-wingstriker,
+.wing-striker:hover .logo-club-wings,
+.striker:hover .logo-club-striker,
+.striker:hover .logo-club-strikers {
+  transition: transform 1s linear;
+  transform: translateY(0%);
+}
+.logo-club,
+.logo-clubs,
+.logo-club-central,
+.logo-club-centrals,
+.logo-club-wingback,
+.logo-club-mid,
+.logo-club-mids,
+.logo-club-attack,
+.logo-club-wingstriker,
+.logo-club-wings,
+.logo-club-striker,
+.logo-club-strikers {
+  position: absolute;
+  transition: transform 1s linear;
+  transform: translateY(-100%);
+  margin-left: 190px;
+}
+.players-infor,
+.players-infors,
+.players-infor-central,
+.players-infor-centrals,
+.players-infor-wingback,
+.players-infor-mid,
+.players-infor-mids,
+.players-infor-attack,
+.players-infor-wingstriker,
+.players-infor-wings,
+.players-infor-striker,
+.players-infor-strikers {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  transition: transform 1s linear;
+  color: aliceblue;
+  font-family: system-ui;
+  font-size: 25px;
+  font-weight: 500;
+  transform: translateY(0%);
+  width: 250px;
+  margin-top: 300px;
+}
+.clothers-number {
+  margin-left: 5px;
+}
+.name-player {
+  margin-left: 5px;
+}
+/* Phần hiệu ứng cho ảnh đại diện của cầu thủ */
+.rotating-animation,
+.rotating-animations {
+  display: flex;
+  flex-direction: row;
+  transition: transform 1.5s linear;
+}
+.rotating-image,
+.rotating-imag,
+.rotating-images {
+  display: flex;
+}
+.goalkepper {
+  align-items: center;
+  flex: 1 0 20.38%;
+  justify-content: space-evenly;
+}
+.centralDefender {
+  align-items: center;
+  flex: 1 0 20.38%;
+  justify-content: space-between;
+}
+.defenders {
+  align-items: center;
+  flex: 1 0 20.38%;
+  justify-content: space-between;
+}
+.midfielders {
+  align-items: center;
+  flex: 1 0 20.38%;
+  justify-content: space-between;
+}
+.attack {
+  align-items: center;
+  flex: 1 0 20.38%;
+  justify-content: space-evenly;
+}
+.wing {
+  align-items: center;
+  flex: 1 0 20.38%;
+  justify-content: space-between;
+}
+.forward {
+  align-items: center;
+  flex: 1 0 20.38%;
+  justify-content: space-evenly;
+}
+/* Phần hiển thị thông tin cầu thủ Nam*/
+/* Phần hiển thị thông tin cầu thủ Nữ*/
+.goalkeppers {
+  align-items: center;
+  flex: 1 0 23.2%;
+  justify-content: space-evenly;
+}
+.centralDefenders {
+  align-items: center;
+  flex: 1 0 23.2%;
+  justify-content: space-evenly;
+}
+.midfielder {
+  align-items: center;
+  flex: 1 0 23.2%;
+  justify-content: space-between;
+}
+.wings {
+  align-items: center;
+  flex: 1 0 23.2%;
+  justify-content: space-between;
+}
+.forwards {
+  align-items: center;
+  flex: 1 0 23.2%;
+  justify-content: space-evenly;
+}
+/* Phần hiển thị thông tin cầu thủ Nữ*/
+/* Phần Middle(Giữa Trang Web) */
+
+/* Phần Footer(Cuối Trang Web) */
+.sponsoring-company {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.sponsoring {
+  display: flex;
+}
+
+.other-sources {
+  display: flex;
+  align-items: center;
+  color: #f8f8f8;
+  font-family: system-ui;
+}
+.sources-content {
+  margin-right: 10px;
+  margin-left: 10px;
+  font-size: 15px;
+}
+.mots:hover,
+.hais:hover,
+.bas:hover,
+.bons:hover,
+.nams:hover,
+.saus:hover,
+.bays:hover,
+.tams:hover,
+.chins:hover,
+.muois:hover {
+  cursor: pointer;
+  border-bottom: 0.25px solid;
+}
+.social-networks {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.brand-icon {
+  margin-right: 2.5px;
+  margin-left: 2.5px;
+}
+.brand-icon i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 45px;
+  height: 45px;
+  border-radius: 50% !important;
+  background-color: #3f3f3f;
+}
+
+#button-accept:hover {
+  border: 0.25px solid yellow;
+  background-color: #c70101;
+}
+/* Phần Footer(Cuối Trang Web) */
