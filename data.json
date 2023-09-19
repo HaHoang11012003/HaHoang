@@ -1,0 +1,304 @@
+{
+  "players": [
+    {
+      "position": "GK",
+      "full_name": "ANTAY",
+      "last_name": "BAYINDIR",
+      "shirt_number": 1,
+      "age": 25,
+      "nationality": "Turkey",
+      "avatar": "/img/image.jpg",
+      "logo_club": "https://assets.manutd.com/AssetPicker/images/0/0/3/2/197240/Header-Logo1500994616801.png",
+      "logo_nationality": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFwAAABcCAMAAADUMSJqAAAAZlBMVEXjChf////iAADjABPqbm/jAAn63t/0ubr++fn409P//Pz3ysvnTlD86OnjAA3vkpPnSUz98/PmP0HtgoTjFh3yp6nuiIn1xcT2wcLkMTPpXWHnRUjwnp/kJinzsrPrdXfpZ2joVlkSm7nFAAABuklEQVRoge2Y23KCMBCGkw0BFCFEQaFS0Pd/yQbaSmqVRGA705n9b7yJH5s9ZRPGSCQSiUQi/VcJgYLNoFfBhp9VPyEA9oc21DqOtd6UnfnEeuhCpVtuKU6ClfDAypj/UnoAuRgt4PgA3SvMlxoPxeaemZxOVRL2bmqWRRZqbYO3VVCLIV+y+i3SPFlCh/OPMDbvJgs/ccJ8ozjG4Xy6rG12VNyRBLA2nOt3IWyfdA+MFBBEM+lgxTLePYZA3s2iw9Gy+/wMIes5bAEW+/LcvC9nyZciC+3ILp1blyZH/dm24drtVuheyRtovJxyWx6YevWHpzd26vEvA+ffvSaDbHpxZtWP8oTrvhLMoZI3+bT/QY1wnxLv4bwyTWenQn5yWAPV2AZ9fDnAuVJ9t9QuayyXt17wy7jTvesUsRLR6XIhAa7RCyGy4MH0YgnyWo775BuPvB1XXyd3KS+RRTYdziP8fwVHdQtCQFFTEbWIMMsftXGhtlzcwwL1mEM9oHFHC9ShCHecwx1EUUdo5/Cvlgz/uNcW3AsX7lWRoV5yGe71nN0/LDRrPiwMwnsSuQnpMYdEIpFIJNLf6wP98hbnfFcuQQAAAABJRU5ErkJggg=="
+    },
+    {
+      "position": "GK",
+      "full_name": "ANDRE",
+      "last_name": "ONANA",
+      "shirt_number": 24,
+      "age": 27,
+      "nationality": "Cameroon",
+      "avatar": "https://assets.manutd.com/AssetPicker/images/0/0/18/202/1231556/AO_HERO_11690038614026.jpg",
+      "logo_club": "https://assets.manutd.com/AssetPicker/images/0/0/3/2/197240/Header-Logo1500994616801.png",
+      "logo_nationality": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Flag_of_Cameroon.svg/125px-Flag_of_Cameroon.svg.png"
+    }
+  ],
+  "players1": [
+    {
+      "position": "DF",
+      "full_name": "LISANDRO",
+      "last_name": "MARTINEZ",
+      "shirt_number": 6,
+      "age": 25,
+      "nationality": "Argentina",
+      "avatar": "https://assets.manutd.com/AssetPicker/images/0/0/18/231/1238877/PlayerProfile_Thumbnail_Mens_Martinez1691779331299.jpg",
+      "logo_club": "https://assets.manutd.com/AssetPicker/images/0/0/3/2/197240/Header-Logo1500994616801.png",
+      "logo_nationality": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_Argentina.svg/125px-Flag_of_Argentina.svg.png"
+    },
+    {
+      "position": "DF",
+      "full_name": "RAPHAEL",
+      "last_name": "VARANE",
+      "shirt_number": 19,
+      "age": 30,
+      "nationality": "France",
+      "avatar": "/img/image1.jpg",
+      "logo_club": "https://assets.manutd.com/AssetPicker/images/0/0/3/2/197240/Header-Logo1500994616801.png",
+      "logo_nationality": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c3/Flag_of_France.svg/125px-Flag_of_France.svg.png"
+    },
+    {
+      "position": "DF",
+      "full_name": "HARRY",
+      "last_name": "MAGUIRE",
+      "shirt_number": 5,
+      "age": 30,
+      "nationality": "England",
+      "avatar": "https://assets.manutd.com/AssetPicker/images/0/0/18/231/1238872/PlayerProfile_Thumbnail_Mens_Maguire1691779143826.jpg",
+      "logo_club": "https://assets.manutd.com/AssetPicker/images/0/0/3/2/197240/Header-Logo1500994616801.png",
+      "logo_nationality": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Flag_of_England.svg/125px-Flag_of_England.svg.png"
+    },
+    {
+      "position": "DF",
+      "full_name": "VICTOR",
+      "last_name": "LINDELOF",
+      "shirt_number": 2,
+      "age": 28,
+      "nationality": "Sweden",
+      "avatar": "https://assets.manutd.com/AssetPicker/images/0/0/18/231/1238876/PlayerProfile_Thumbnail_Mens_Lindelof1691780003409.jpg",
+      "logo_club": "https://assets.manutd.com/AssetPicker/images/0/0/3/2/197240/Header-Logo1500994616801.png",
+      "logo_nationality": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4c/Flag_of_Sweden.svg/125px-Flag_of_Sweden.svg.png"
+    },
+    {
+      "position": "DF",
+      "full_name": "JONNY",
+      "last_name": "EVANS",
+      "shirt_number": 35,
+      "age": 35,
+      "nationality": "Ireland",
+      "avatar": "https://assets.manutd.com/AssetPicker/images/0/0/18/231/1238867/PlayerProfile_Thumbnail_Evans1693928710358.jpg",
+      "logo_club": "https://assets.manutd.com/AssetPicker/images/0/0/3/2/197240/Header-Logo1500994616801.png",
+      "logo_nationality": "https://upload.wikimedia.org/wikipedia/commons/1/19/C%E1%BB%9D_c%E1%BB%A7a_B%E1%BA%AFc_Ireland.png"
+    }
+  ],
+  "players2": [
+    {
+      "position": "WDF",
+      "full_name": "LUKE",
+      "last_name": "SHAW",
+      "shirt_number": 23,
+      "age": 27,
+      "nationality": "England",
+      "avatar": "https://assets.manutd.com/AssetPicker/images/0/0/18/231/1238874/PlayerProfile_Thumbnail_Mens_Shaw1691779387783.jpg",
+      "logo_club": "https://assets.manutd.com/AssetPicker/images/0/0/3/2/197240/Header-Logo1500994616801.png",
+      "logo_nationality": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Flag_of_England.svg/125px-Flag_of_England.svg.png"
+    },
+    {
+      "position": "WDF",
+      "full_name": "TYRELL",
+      "last_name": "MALACIA",
+      "shirt_number": 12,
+      "age": 23,
+      "nationality": "Netherlands",
+      "avatar": "https://assets.manutd.com/AssetPicker/images/0/0/18/231/1238873/PlayerProfile_Thumbnail_Mens_Malacia1691779934262.jpg",
+      "logo_club": "https://assets.manutd.com/AssetPicker/images/0/0/3/2/197240/Header-Logo1500994616801.png",
+      "logo_nationality": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Flag_of_the_Netherlands.svg/125px-Flag_of_the_Netherlands.svg.png"
+    },
+    {
+      "position": "WDF",
+      "full_name": "DIOGO",
+      "last_name": "DALOT",
+      "shirt_number": 20,
+      "age": 24,
+      "nationality": "Portugal",
+      "avatar": "https://assets.manutd.com/AssetPicker/images/0/0/18/231/1238871/PlayerProfile_Thumbnail_Mens_Dalot1691778754424.jpg",
+      "logo_club": "https://assets.manutd.com/AssetPicker/images/0/0/3/2/197240/Header-Logo1500994616801.png",
+      "logo_nationality": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_Portugal.svg/125px-Flag_of_Portugal.svg.png"
+    },
+    {
+      "position": "WDF",
+      "full_name": "AARON",
+      "last_name": "WAN-BISSAKA",
+      "shirt_number": 29,
+      "age": 25,
+      "nationality": "England",
+      "avatar": "https://assets.manutd.com/AssetPicker/images/0/0/18/231/1238870/PlayerProfile_Thumbnail_Mens_AWB1691777971267.jpg",
+      "logo_club": "https://assets.manutd.com/AssetPicker/images/0/0/3/2/197240/Header-Logo1500994616801.png",
+      "logo_nationality": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Flag_of_England.svg/125px-Flag_of_England.svg.png"
+    },
+    {
+      "position": "WDF",
+      "full_name": "SERGIO",
+      "last_name": "REGUILON",
+      "shirt_number": 15,
+      "age": 26,
+      "nationality": "Spain",
+      "avatar": "https://assets.manutd.com/AssetPicker/images/0/0/19/0/1245309/PlayerProfile_Thumbnail_SR1693927674698.jpg",
+      "logo_club": "https://assets.manutd.com/AssetPicker/images/0/0/3/2/197240/Header-Logo1500994616801.png",
+      "logo_nationality": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Bandera_de_Espa%C3%B1a.svg/125px-Bandera_de_Espa%C3%B1a.svg.png"
+    }
+  ],
+  "players3": [
+    {
+      "position": "MF",
+      "full_name": "CARLOS",
+      "last_name": "CASEMIRO",
+      "shirt_number": 18,
+      "age": 31,
+      "nationality": "Brazil",
+      "avatar": "https://assets.manutd.com/AssetPicker/images/0/0/18/231/1238846/PlayerProfile_Thumbnail_Mens_Casemiro1691778556912.jpg",
+      "logo_club": "https://assets.manutd.com/AssetPicker/images/0/0/3/2/197240/Header-Logo1500994616801.png",
+      "logo_nationality": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/125px-Flag_of_Brazil.svg.png"
+    },
+    {
+      "position": "MF",
+      "full_name": "SOFYAN",
+      "last_name": "AMRABAT",
+      "shirt_number": 4,
+      "age": 27,
+      "nationality": "Morocco",
+      "avatar": "/img/image2.jpg",
+      "logo_club": "https://assets.manutd.com/AssetPicker/images/0/0/3/2/197240/Header-Logo1500994616801.png",
+      "logo_nationality": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Flag_of_Morocco.svg/125px-Flag_of_Morocco.svg.png"
+    },
+    {
+      "position": "MF",
+      "full_name": "SCOTT",
+      "last_name": "MCTOMINAY",
+      "shirt_number": 39,
+      "age": 26,
+      "nationality": "Scotland",
+      "avatar": "https://assets.manutd.com/AssetPicker/images/0/0/18/231/1238849/PlayerProfile_Thumbnail_Mens_Scott1691779735430.jpg",
+      "logo_club": "https://assets.manutd.com/AssetPicker/images/0/0/3/2/197240/Header-Logo1500994616801.png",
+      "logo_nationality": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Flag_of_Scotland.svg/125px-Flag_of_Scotland.svg.png"
+    },
+    {
+      "position": "MF",
+      "full_name": "CHRISTIAN",
+      "last_name": "ERIKSEN",
+      "shirt_number": 14,
+      "age": 31,
+      "nationality": "Denmark",
+      "avatar": "https://assets.manutd.com/AssetPicker/images/0/0/18/231/1238852/PlayerProfile_Thumbnail_Mens_Erikson1691778631325.jpg",
+      "logo_club": "https://assets.manutd.com/AssetPicker/images/0/0/3/2/197240/Header-Logo1500994616801.png",
+      "logo_nationality": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Flag_of_Denmark.svg/125px-Flag_of_Denmark.svg.png"
+    },
+    {
+      "position": "MF",
+      "full_name": "KOBBIE",
+      "last_name": "MAINOO",
+      "shirt_number": 37,
+      "age": 18,
+      "nationality": "England",
+      "avatar": "https://assets.manutd.com/AssetPicker/images/0/0/18/231/1238854/PlayerProfile_Thumbnail_Mens_Mainoo1691779257047.jpg",
+      "logo_club": "https://assets.manutd.com/AssetPicker/images/0/0/3/2/197240/Header-Logo1500994616801.png",
+      "logo_nationality": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Flag_of_England.svg/125px-Flag_of_England.svg.png"
+    }
+  ],
+  "players4": [
+    {
+      "position": "AMF",
+      "full_name": "BRUNO",
+      "last_name": "FERNANDES",
+      "shirt_number": 8,
+      "age": 28,
+      "nationality": "Portugal",
+      "avatar": "https://assets.manutd.com/AssetPicker/images/0/0/18/231/1238845/PlayerProfile_Thumbnail_Mens_Bruno1691778502502.jpg",
+      "logo_club": "https://assets.manutd.com/AssetPicker/images/0/0/3/2/197240/Header-Logo1500994616801.png",
+      "logo_nationality": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_Portugal.svg/125px-Flag_of_Portugal.svg.png"
+    },
+    {
+      "position": "AMF",
+      "full_name": "MASON",
+      "last_name": "MOUNT",
+      "shirt_number": 7,
+      "age": 24,
+      "nationality": "England",
+      "avatar": "https://assets.manutd.com/AssetPicker/images/0/0/18/231/1238855/PlayerProfile_Thumbnail_Mens_Mount1691779507521.jpg",
+      "logo_club": "https://assets.manutd.com/AssetPicker/images/0/0/3/2/197240/Header-Logo1500994616801.png",
+      "logo_nationality": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Flag_of_England.svg/125px-Flag_of_England.svg.png"
+    }
+  ],
+  "players5": [
+    {
+      "position": "WCF",
+      "full_name": "MARCUS",
+      "last_name": "RASHFORD",
+      "shirt_number": 10,
+      "age": 25,
+      "nationality": "England",
+      "avatar": "https://assets.manutd.com/AssetPicker/images/0/0/18/231/1238864/PlayerProfile_Thumbnail_Mens_Rashford1691779448134.jpg",
+      "logo_club": "https://assets.manutd.com/AssetPicker/images/0/0/3/2/197240/Header-Logo1500994616801.png",
+      "logo_nationality": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Flag_of_England.svg/125px-Flag_of_England.svg.png"
+    },
+    {
+      "position": "WCF",
+      "full_name": "JADON",
+      "last_name": "SANCHO",
+      "shirt_number": 25,
+      "age": 23,
+      "nationality": "England",
+      "avatar": "https://assets.manutd.com/AssetPicker/images/0/0/18/231/1238861/PlayerProfile_Thumbnail_Mens_Sancho1691779201085.jpg",
+      "logo_club": "https://assets.manutd.com/AssetPicker/images/0/0/3/2/197240/Header-Logo1500994616801.png",
+      "logo_nationality": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Flag_of_England.svg/125px-Flag_of_England.svg.png"
+    },
+    {
+      "position": "WCF",
+      "full_name": "ALEJANDRO",
+      "last_name": "GARNACHO",
+      "shirt_number": 49,
+      "age": 19,
+      "nationality": "Argentina",
+      "avatar": "https://assets.manutd.com/AssetPicker/images/0/0/18/231/1238862/PlayerProfile_Thumbnail_Mens_Garnacho1691778056238.jpg",
+      "logo_club": "https://assets.manutd.com/AssetPicker/images/0/0/3/2/197240/Header-Logo1500994616801.png",
+      "logo_nationality": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_Argentina.svg/125px-Flag_of_Argentina.svg.png"
+    },
+    {
+      "position": "WCF",
+      "full_name": "MATHEUS",
+      "last_name": "ANTONY",
+      "shirt_number": 21,
+      "age": 23,
+      "nationality": "Brazil",
+      "avatar": "https://assets.manutd.com/AssetPicker/images/0/0/18/231/1238859/PlayerProfile_Thumbnail_Mens_Antony1691778373624.jpg",
+      "logo_club": "https://assets.manutd.com/AssetPicker/images/0/0/3/2/197240/Header-Logo1500994616801.png",
+      "logo_nationality": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/125px-Flag_of_Brazil.svg.png"
+    },
+    {
+      "position": "WCF",
+      "full_name": "FACUNDO",
+      "last_name": "PELLISTRI",
+      "shirt_number": 28,
+      "age": 21,
+      "nationality": "Uruguay",
+      "avatar": "https://assets.manutd.com/AssetPicker/images/0/0/18/231/1238847/PlayerProfile_Thumbnail_Mens_Facundo1691778967625.jpg",
+      "logo_club": "https://assets.manutd.com/AssetPicker/images/0/0/3/2/197240/Header-Logo1500994616801.png",
+      "logo_nationality": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Flag_of_Uruguay.svg/125px-Flag_of_Uruguay.svg.png"
+    }
+  ],
+  "players6": [
+    {
+      "position": "CF",
+      "full_name": "ANTHONY",
+      "last_name": "MARTIAL",
+      "name": "Anthony Martial",
+      "shirt_number": 9,
+      "age": 27,
+      "nationality": "France",
+      "avatar": "https://assets.manutd.com/AssetPicker/images/0/0/18/231/1238860/PlayerProfile_Thumbnail_Mens_Martial1691778309795.jpg",
+      "logo_club": "https://assets.manutd.com/AssetPicker/images/0/0/3/2/197240/Header-Logo1500994616801.png",
+      "logo_nationality": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c3/Flag_of_France.svg/125px-Flag_of_France.svg.png"
+    },
+    {
+      "position": "CF",
+      "full_name": "RASMUS",
+      "last_name": "HOJLUND",
+      "name": "Rasmus Hojlund",
+      "shirt_number": 11,
+      "age": 20,
+      "nationality": "Denmark",
+      "avatar": "https://assets.manutd.com/AssetPicker/images/0/0/18/231/1238863/PlayerProfile_Thumbnail_Mens_Hojlund1691779649782.jpg",
+      "logo_club": "https://assets.manutd.com/AssetPicker/images/0/0/3/2/197240/Header-Logo1500994616801.png",
+      "logo_nationality": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Flag_of_Denmark.svg/125px-Flag_of_Denmark.svg.png"
+    }
+  ]
+}
